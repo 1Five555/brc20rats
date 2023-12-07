@@ -28,7 +28,13 @@ export const language = {
                 '$RATS 社区，虽然会有败类，但别让那些搅屎棍影响你。冲啊，不要再让那些XX的败类破坏我们的社区。在web3中，我们一直是韭菜，但这是一个高度社区化的项目，别再让那帮XX的败类破坏它。\n' +
                 '\n' +
                 '韭菜们，冲啊！为了你的利益，为了自由！挺起你的手，向前冲！'
-        }
+        },
+        coinSwiper:{
+            title:'哪里可以买到rats',
+            content:'Rats目前已经登陆23家顶级交易所，以及欧意钱包web3也支持,如需帮助，可以加入社区为您解答',
+            name:'交易所',
+        },
+        joinUs:[{title:'加入Rats',name:'加入我们电报',url:'https://t.me/ratsCN'},{title:'加入Rats',name:'加入我们推特',url:'https://twitter.com/BTC_Rats'},]
     },
     en: {
         menu:['Community','Buy'],
@@ -48,7 +54,22 @@ export const language = {
                 big:'Rats',
                 content:'Innovative Asset Class: $Rats are a unique animal-themed crypto-asset created on the Bitcoin blockchain using the BRC-20 protocol. It provides an exciting new entry into the world of Bitcoin, with significant wealth transfer potential. Early investment, huge potential - a golden opportunity for early risers in the crypto world, as the leading BRC-20 crypto asset, $rats has the potential to surpass the ERC-based Dogecoin market cap, thanks to its strong community support. There is no risk of "pulling the carpet": $rats tokens have no contracts and cannot be modified. There is no national team involved in the project, ensuring that there is no risk of pulling the rug out. The total supply is one trillion tokens, the price is affordable, and it can easily trigger FOMO, giving it a high degree of memetic potential.'
             }
-        }
+        },
+        core:{
+            small:'核心价值观',
+            big:'什么是老鼠精神',
+            content:'Meme龙头出现了！$RATS！在这个不是机构割韭菜的时代，韭菜们，挺起双手，捍卫自己的利益！\n' +
+                '\n' +
+                '$RATS 社区，虽然会有败类，但别让那些搅屎棍影响你。冲啊，不要再让那些XX的败类破坏我们的社区。在web3中，我们一直是韭菜，但这是一个高度社区化的项目，别再让那帮XX的败类破坏它。\n' +
+                '\n' +
+                '韭菜们，冲啊！为了你的利益，为了自由！挺起你的手，向前冲！'
+        },
+        coinSwiper:{
+            title:'where to buy rats',
+            content:'Rats is currently listed on 23 exchanges, and is also supported by Okex Wallet web3. If you need help, you can join the community to answer your questions.',
+            name:'exchanges',
+        },
+        joinUs:[{title:'Join Rats',name:'Join Telegram',url:'https://t.me/Brc20RatsEN'},{title:'Join Rats',name:'Join Twitter',url:'https://twitter.com/BTC_Rats'},]
     }
 };
 export const LanguageContext = React.createContext(language.zh);

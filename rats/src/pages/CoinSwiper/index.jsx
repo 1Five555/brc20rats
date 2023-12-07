@@ -1,3 +1,5 @@
+import react, {useContext} from "react";
+import {LanguageContext} from "../../language/index.js";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Autoplay} from 'swiper/modules';
 import {exchanges} from "./help.js";
@@ -7,14 +9,15 @@ import styles from './index.module.less'
 import SwiperCard from "../../components/SwiperCard/index.jsx";
 
 const CoinSwiper = () => {
+    const language = useContext(LanguageContext)
     return (
         <div className={styles.wrapper}>
             <div className={styles.top}>
-                <div className={styles.big}>aaaa</div>
-                <div className={styles.small}>5555</div>
+                <div className={styles.big}>{language.coinSwiper.title}</div>
+                <div className={styles.small}>{language.coinSwiper.content}</div>
             </div>
             <div className={styles.bottom}>
-                <div className={styles.title}>ding</div>
+                <div className={styles.title}>{language.coinSwiper.name}</div>
                 <div className={styles.swiper}>
                     <Swiper
                         modules={[Autoplay]}

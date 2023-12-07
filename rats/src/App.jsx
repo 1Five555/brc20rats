@@ -8,6 +8,9 @@ import {language, LanguageContext} from "./language/index.js";
 import Info from "./pages/Info/index.jsx";
 import Core from "./pages/core/index.jsx";
 import CoinSwiper from "./pages/CoinSwiper/index.jsx";
+import History from "./pages/History/index.jsx";
+import Bottom from "./pages/Bottom/index.jsx";
+
 
 
 function App() {
@@ -34,6 +37,8 @@ function App() {
                     <Info />
                     <Core />
                     <CoinSwiper />
+                    <History />
+                    <Bottom></Bottom>
                 </LanguageContext.Provider>
             </div>
 
